@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 export function CreateTodo() {
-   //  react query
+   //  react 
    const [title, setTitle] = useState("");
    const [description, setDescription] = useState("");
    
