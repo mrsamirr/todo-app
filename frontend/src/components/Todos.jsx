@@ -1,11 +1,4 @@
 
-/* todos = [
-    {
-     title: "go to gym",
-     description: "go to gym from 8-9"
-    }
-]
-*/
 export function Todos({todos}) {
     return <div>
      { todos.map(function(todo) {  // iterate over all the todos
